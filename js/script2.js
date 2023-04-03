@@ -14,7 +14,7 @@ function math(num1,num2,op){
             result= num1/num2;
           break;
         default:
-            prompt("Ви ввели не доступну дію,спробуйте знову");
+            alert("Ви ввели не доступну дію,спробуйте знову");
          break;
     }
     alert(result);
